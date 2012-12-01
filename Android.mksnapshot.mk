@@ -8,6 +8,7 @@ include $(CLEAR_VARS)
 LOCAL_IS_HOST_MODULE := true
 LOCAL_MODULE := mksnapshot
 LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_TAGS := optional
 intermediates := $(call local-intermediates-dir)
 
 V8_LOCAL_SRC_FILES :=
